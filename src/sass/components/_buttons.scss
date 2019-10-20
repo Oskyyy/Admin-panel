@@ -1,3 +1,7 @@
+.button {
+  text-align: center;
+}
+
 .btn_top {
   background: none;
   border: none;
@@ -16,6 +20,7 @@
   cursor: pointer;
   text-align: center;
   transition: $transition;
+  padding: 0;
 
   &:hover {
     opacity: 0.8;
@@ -23,18 +28,20 @@
 }
 
 .btn-one {
-  font-size: 15px;
-  width: 42px;
-  height: 42px;
-  margin-top: 35px;
-  margin-bottom: 35px;
+  font-size: $font-size-gamma;
+  width: 40px;
+  height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .btn-two {
-  font-size: $font-size-beta;
+  font-size: $font-size-gamma;
   font-weight: $weight-light;
   line-height: 42px;
   letter-spacing: 0;
   width: 127px;
   height: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
