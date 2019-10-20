@@ -6,6 +6,7 @@
   position: fixed;
   z-index: 2;
   transition: all 0.5s;
+  top: 0;
 }
 
 .sidebar.toggled {
@@ -79,6 +80,12 @@
       }
     }
   }
+}
+
+.sidebar .menu .menu-subpages ul li .menu-link.active {
+  color: $color-light;
+  background-color: $color-background-sidebar-beta;
+  border-left: 4px solid $color-graph-alpha;
 }
 
 .menu-subpages [class*="icon-"] {

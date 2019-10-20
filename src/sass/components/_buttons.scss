@@ -7,7 +7,7 @@
   cursor: pointer;
   color: $color-background;
 }
-  
+
 .btn {
   background-color: $color-graph-alpha;
   color: $color-light;
@@ -16,12 +16,12 @@
   cursor: pointer;
   text-align: center;
   transition: $transition;
-  
+
   &:hover {
     opacity: 0.8;
   }
 }
-  
+
 .btn-one {
   font-size: 15px;
   width: 42px;
@@ -29,7 +29,7 @@
   margin-top: 35px;
   margin-bottom: 35px;
 }
-  
+
 .btn-two {
   font-size: $font-size-beta;
   font-weight: $weight-light;
