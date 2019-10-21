@@ -10,6 +10,7 @@
 @import "components/header";
 @import "components/modals";
 @import "components/pagination";
+@import "components/personal_input";
 @import "components/table";
 
 /* Sections */
@@ -20,6 +21,7 @@
 @import "sections/details-statistic";
 @import "sections/personaldata-form";
 @import "sections/payout-history";
+@import "sections/modal_chat";
 
 /* Pages / Views */
 @import "pages/dashboard";
