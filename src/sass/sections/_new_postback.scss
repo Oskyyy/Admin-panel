@@ -1,0 +1,85 @@
+.new-postback {
+    background-color: $color-light;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+    .postback-info {
+      padding-left: 15px;
+      padding-right: 15px;
+      margin-top: 48px;
+    }
+  
+    form div:nth-last-child(2) {
+      margin-bottom: 0;
+    }
+  
+    .postback-inputs {
+      color: $color-text-alpha;
+      text-align: left;
+      margin-bottom: 48px;
+  
+      .postback-title {
+        font-size: $font-size-gamma;
+        font-weight: $weight-bold;
+  
+        span {
+          color: red;
+        }
+      }
+  
+      .postback-text {
+        width: 100%;
+        border: $border-style;
+        border-radius: 3px;
+        font-size: $font-size-delta;
+        padding-top: 18px;
+        padding-left: 18px;
+        resize: none;
+  
+        &:hover {
+          border-color: $color-text-gamma;
+          transition: $transition;
+        }
+      }
+    }
+  
+    .button {
+      text-align: right;
+    }
+  }
+  
+  // Placeholder
+  ::placeholder {
+    color: $color-text-alpha;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: $color-text-alpha;
+  }
+  
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: $color-text-alpha;
+  }
+  
+  .postback-input-right {
+    border-top: $border-style;
+    border-bottom: $border-style;
+  
+    .range-label {
+      width: 90%;
+      margin: 50px auto 5px;
+      font-size: $font-size-delta;
+  
+      .label-right {
+        float: right;
+      }
+    }
+  }
+  
+  .postback-input-left {
+    border-top: $border-style;
+    border-bottom: $border-style;
+    border-right: $border-style;
+  }

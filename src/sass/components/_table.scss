@@ -1,56 +1,56 @@
 .table {
   margin: 20px 40px;
-  
+
   .table-inner {
     width: 100%;
     line-height: 60px;
     text-align: left;
     font-size: $font-size-delta;
     border-collapse: collapse;
-  
+
     .table-title {
       color: $color-text-alpha;
       font-weight: 500;
     }
   }
 }
-  
+
 .table-inner .table-data:hover {
   background-color: $color-background;
   transition: $transition;
 }
-  
+
 .table-inner .table-title th,
 .table-inner .table-data td {
   border-bottom: $border-style;
   padding-left: 10px;
 }
-  
+
 .sorter:hover {
   background-color: $color-background;
 }
-  
+
 @media (max-width: 1200px) {
   .table .table-inner {
     line-height: 30px;
     max-width: 80%;
     margin: 0 auto;
-  
+
     thead {
       clip: rect(0 0 0 0);
       position: absolute;
     }
-  
+
     tr {
       border: $border-style;
       display: block;
       margin-bottom: 20px;
-  
+
       &:hover {
         border-color: $color-text-gamma;
       }
     }
-  
+
     td {
       display: block;
       font-size: 0.8em;
@@ -58,33 +58,33 @@
       padding-right: 10px;
     }
   }
-  
+
   .table-inner tr:hover td {
     border-bottom: 1px solid $color-text-gamma;
     transition: $transition;
   }
-  
+
   .table-inner tr:hover td:last-child {
     border-bottom: 0;
   }
-  
+
   .table-inner td::before {
     content: attr(data-label);
     float: left;
     font-weight: bold;
     text-transform: uppercase;
   }
-  
+
   .table-inner td:last-child {
     border-bottom: 0;
   }
 }
-  
+
 @media (max-width: 480px) {
   .table {
     margin-left: 10px;
     margin-right: 10px;
-  
+
     .table-inner {
       max-width: 100%;
     }

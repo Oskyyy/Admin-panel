@@ -6,22 +6,27 @@
 
 /* Components */
 @import "components/buttons";
+@import "components/checkbox";
 @import "components/datepicker";
 @import "components/header";
+@import "components/inputs";
 @import "components/modals";
 @import "components/pagination";
-@import "components/personal_input";
+@import "components/rangeslider";
+@import "components/selects";
 @import "components/table";
 
 /* Sections */
 @import "sections/topbar";
 @import "sections/sidebar";
-@import "sections/general-statistic";
 @import "sections/general_links_banners-links";
+@import "sections/general-statistic";
 @import "sections/details-statistic";
-@import "sections/personaldata-form";
+@import "sections/new_postback";
 @import "sections/payout-history";
+@import "sections/personaldata-form";
 @import "sections/modal_chat";
+@import "sections/modal_add-url";
 
 /* Pages / Views */
 @import "pages/dashboard";
