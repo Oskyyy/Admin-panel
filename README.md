@@ -1,3 +1,3 @@
 # Admin-panel
 
-[Click me!](https://Oskyyy.github.io/Admin-panel/)
+[Click me!](https://oskyyy.github.io/Admin-panel/)
