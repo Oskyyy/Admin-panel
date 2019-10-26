@@ -1,0 +1,10 @@
+/* date */
+.general-statistic .date,
+.details-statistic .date,
+.payout-history {
+  border-bottom: $border-style;
+
+  .row {
+    justify-content: center;
+  }
+}

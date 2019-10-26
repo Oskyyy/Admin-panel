@@ -1,0 +1,65 @@
+.general-statistic {
+  margin-bottom: 18px;
+  background-color: $color-light;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* chart */
+.general-statistic .chart .row {
+  justify-content: center;
+
+  .col-md-10,
+  .col-md-9 {
+    margin-top: 35px;
+    margin-bottom: 35px;
+
+    .first-column,
+    .second-column {
+      justify-content: center;
+    }
+
+    .table-inner {
+      margin: auto;
+      height: 42px;
+      font-size: $font-size-gamma;
+      font-family: $font-text;
+      font-weight: $weight-bold;
+      line-height: 42px;
+      letter-spacing: 0;
+      color: $color-text-alpha;
+      border-bottom: $border-style;
+
+      span {
+        float: right;
+        font-weight: $weight-light;
+        color: $color-text-gamma;
+      }
+    }
+
+    .chart-graph {
+      margin: 35px auto;
+      position: relative;
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+      }
+    }
+
+    .header {
+      border-bottom: none;
+      margin-top: 35px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .chart .row .col-md-10 .row .first-column {
+    margin-bottom: 0;
+  }
+
+  .chart .row .col-md-10 .row .second-column {
+    margin-top: 0;
+  }
+}

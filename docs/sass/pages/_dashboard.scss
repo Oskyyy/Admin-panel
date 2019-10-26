@@ -1,0 +1,19 @@
+.container {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.main {
+  margin: 78px 18px 18px 268px;
+  transition: $transition;
+}
+
+.main.wide {
+  margin: 78px 18px 18px 78px;
+}
+
+@media (max-width: 768px) {
+  .main,
+  .main.wide {
+    margin-top: 60px;
+  }
+}

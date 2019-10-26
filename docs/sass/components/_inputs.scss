@@ -1,0 +1,67 @@
+.main-input {
+  font-size: $font-size-gamma;
+  line-height: 42px;
+  height: 40px;
+  margin: 30px 15px;
+  border: $border-style;
+  border-radius: 3px;
+
+  &:hover {
+    border-color: $color-text-gamma;
+    transition: $transition;
+  }
+}
+
+#login_name {
+  width: 250px;
+  padding-left: 40px;
+  background-image: url(/images/icons/login.svg);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+}
+
+#password {
+  width: 250px;
+  padding-left: 45px;
+  background-image: url(/images/icons/password.svg);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 24px;
+}
+
+#send_message {
+  width: 500px;
+  padding-left: 40px;
+  background-image: url(/images/icons/message.svg);
+  background-position: 10px center;
+  background-repeat: no-repeat;
+  background-size: 17px;
+}
+
+#scheme_name,
+#generated_link {
+  margin: 0;
+  width: 100%;
+  padding-left: 10px;
+  font-size: $font-size-delta;
+}
+
+#daterange {
+  height: 40px;
+  margin: 30px;
+  padding-left: 30px;
+  padding-right: 60px;
+  background-image: url(/images/icons/calendar.svg);
+  background-position: 250px center;
+  background-repeat: no-repeat;
+  background-size: 17px;
+}
+
+@media (max-width: 480px) {
+  #daterange {
+    background-image: none;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}
